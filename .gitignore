@@ -1,0 +1,131 @@
+# --------------------------------------------------------------- #
+# Gitignore for Node.js / React / Web Projects (with common additions)
+# --------------------------------------------------------------- #
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log.*
+.DS_Store # macOS specific
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+*.local
+npm-shrinkwrap.json
+.eslintcache
+.stylelintcache
+
+# Compiled/Transpiled files
+/build
+/dist
+/dist-ssr
+/out
+/tmp
+*.zip
+*.rar
+*.7z
+
+# Environment variables
+.env
+.env.development
+.env.test
+.env.production
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/ # VS Code specific settings/launch configs
+!.vscode/extensions.json # Keep extensions.json to recommend extensions
+.idea/ # IntelliJ IDEA specific files
+*.iml # IntelliJ IDEA module files
+*.suo # Visual Studio Solution User Options
+*.ntvs* # Node.js Tools for Visual Studio
+*.njsproj # Node.js project file for Visual Studio
+*.sln # Visual Studio solution file
+*.sw? # Vim swap files (.swp, .swo, .swn)
+*~ # Backup files created by some editors (e.g., Emacs)
+.#* # Emacs lock files
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.settings/
+.classpath
+
+# Gradle (if your project has a Java/Kotlin backend or uses Gradle for something)
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar # Keep the wrapper JAR if you use the Gradle wrapper
+!gradle/wrapper/gradle-wrapper.properties # Keep wrapper properties
+build/
+out/
+.project
+.settings/
+.classpath
+.factorypath
+.apt_generated/
+*.jar
+*.war
+*.ear
+*.class
+*.exe
+
+# Other temporary files
+*.bak
+*.temp
+*.tmp
+*.orig
+
+# Test coverage results
+coverage/
+.nyc_output/
+
+# Dependency Lock Files (choose based on your package manager)
+# package-lock.json # Uncomment if you use npm but don't want to commit it (not recommended for most projects)
+# yarn.lock # Uncomment if you use Yarn but don't want to commit it (not recommended for most projects)
+# pnpm-lock.yaml # Uncomment if you use pnpm but don't want to commit it (not recommended for most projects)
+
+# Docker
+Dockerfile.backup
+*.swp
+*.bak
+*.tmp
+
+# Visual Studio Code extension (ESLint)
+.eslintcache
+
+# SvelteKit specific (if applicable)
+.svelte-kit/
+
+# Next.js specific (if applicable)
+.next/
+
+# Gatsby specific (if applicable)
+.cache/
+public/ # sometimes ignored, depending on deployment strategy
+
+# Others
+report.html
+.terraform/
+.terraform.lock.hcl
